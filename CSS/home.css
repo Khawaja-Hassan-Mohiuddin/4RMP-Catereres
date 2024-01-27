@@ -1,0 +1,308 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* FIRST SECTION START */
+/* *************NAVIGATION STARTS  */
+.nav-class{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    
+}
+
+/* -------LOGO SECTION */
+.logo-class{
+    /* border: 2px solid green; */
+    margin-left: 50px;
+}
+
+.logo-class img{
+    width: 60px;
+    height: 60px;
+}
+
+
+/* ------------  FOR NAV BUTTON AND SEARCH CONTAINER  */
+.navlinksconatiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+    width: 70%;
+    /* background-color: purple; */
+    /* background-color: rgb(138, 75, 138,0.8); */
+    background-color: rgb( 168, 205, 76);
+    /* opacity: 0.7;  */
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+/* -------NAVIGATION BAR BUTTONS AND SEARCH */
+
+
+/* 1).FOR NAVIGATION BUTTONS */
+.nav-button {
+    margin-left: 10px;
+}
+
+.nav-button li{
+    display: inline;
+    
+    margin: 3px;
+}
+
+.nav-button li a {
+    list-style: none;
+    text-decoration: none;
+    /* color: rgb(223, 83, 106); */
+    /* color: white; */
+    color: rgb(138, 75, 138);
+    /* border: 2px solid white; */
+    border: 2px solid rgb(138, 75, 138);
+    border-radius: 50px;
+    padding: 10px;
+    
+   
+}
+
+.nav-button li a:hover{
+    /* border: 5px solid rgb(207, 80, 148); */
+    /* color:  rgb(207, 80, 148); */
+    /* border: 5px solid purple;
+     color:  purple; */
+    /* border: 4px solid rgb(138, 75, 138); */
+    border-width: 4px;
+     /* color:  rgb(138, 75, 138); */
+    font-weight: bolder;
+}
+
+/* 2).FOR NAVIGATION SEARCH BAR */
+ .search-class{
+    margin-right: 10px;
+} 
+
+.search-class input{
+    height: 25px;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 3px;
+    font-weight: bolder;
+    
+}
+
+
+/* *************NAVIGATION ENDS  */
+
+
+/* START FOR IMAGE */
+.img{
+    background-image: url(/Images/home.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 700px;
+
+} 
+/* END FOR IMAGE */
+
+/* MAIN SECTION */
+
+/* IMAGE CONTENT FOR FRONT START */
+.content{
+    
+    margin-top: 170px;
+}
+
+.content h1{
+    font-size: 100px;
+    padding-top: 5px;
+    
+}
+
+.content h5{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 10px;
+    padding-top: 5px;
+    font-style: italic;
+}
+
+.content h1,h5{
+    color:white;
+    text-align: center;
+    
+}
+
+h5:hover{
+    /* color: rgb(207, 80, 148); */
+    /* color: purple; */
+    color: rgb(138, 75, 138);
+}
+/* IMAGE CONTENT FOR FRONT ENDS */
+
+/* FIRST SECTION END */
+
+/* SERVICE SECTION */
+.service{
+    width: 100%;
+    height: 550px;
+    /* background-color: rgb(138, 75, 138,0.8); */
+    background-color: rgb( 168, 205, 76);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service-img img{
+    width: 400px;
+    height: 500px;
+}
+.service-img{
+    margin: 20px;
+    margin-left: 80px;
+}
+.service-content{
+    margin: 20px;
+    width: 700px;
+    text-align: center;
+}
+.service-content p{
+    /* text-align: center; */
+    font-size: 20px;
+    font-weight: 900;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    line-height: 25px;
+    /* color: white; */
+    color: rgb(138, 75, 138);
+}
+.service-content h4{
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    /* text-align: center; */
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    /* color: white; */
+    color: rgb(138, 75, 138);
+    text-transform: capitalize;
+    font-style: italic;
+}
+.service-content h1{
+    font-size: 50px;
+    /* text-align: center; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    /* color: white; */
+    color: rgb(138, 75, 138);
+    text-transform: capitalize;
+}
+.servicereadmorebtn{
+   margin-top: 10px; 
+}
+
+.servicereadmorebtn a{
+    /* color: white; */
+    color: rgb(138, 75, 138);
+    background-color: transparent;
+    /* border: 2px solid white; */
+    border: 2px solid rgb(138, 75, 138);
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+.servicereadmorebtn a:hover{
+    /* color: purple; */
+    color: rgb(138, 75, 138);
+    
+    font-size: larger;
+    font-weight: bolder;
+    /* border:4px solid purple; */
+    border:4px solid rgb(138, 75, 138);
+} 
+
+
+                /* about us content section STARTS */
+.aboutus-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    background-color: rgb( 168, 205, 76);
+    padding: 50px;
+    color: rgb(138, 75, 138);
+    border: 3px solid black;
+}
+.aboutus-content .aboutus-img img{
+    height: 500px;
+    width: 400px;
+}
+.aboutus-img ,.aboutus{
+    padding: 20px;
+    /* border: 2px solid blue; */
+    margin: 20px;
+}
+
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutus-content .aboutus h1{
+
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    
+    
+}
+
+.aboutus-content .aboutus p{
+
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 25px;
+}
+
+#about-btn{
+    margin-top: 30px; 
+ }
+ 
+ #about-btn a{
+     /* color: white; */
+     color: rgb(138, 75, 138);
+     background-color: transparent;
+     /* border: 2px solid white; */
+     border: 2px solid rgb(138, 75, 138);
+     border-radius: 50px;
+     /* text-align: center; */
+     padding: 10px;
+     text-decoration: none;
+     
+ }
+ #about-btn a:hover{
+     /* color: purple; */
+     color: rgb(138, 75, 138);
+     
+     font-size: larger;
+     font-weight: bolder;
+     /* border:4px solid purple; */
+     border:4px solid rgb(138, 75, 138);
+ }
+
+
+
+                /* about us content section ENDS */

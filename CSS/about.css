@@ -1,0 +1,372 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  /* FIRST SECTION START */
+  /* *************NAVIGATION STARTS  */
+  .nav-class {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+  }
+
+  /* -------LOGO SECTION */
+  .logo-class {
+    /* border: 2px solid green; */
+    margin-left: 50px;
+  }
+
+  .logo-class img {
+    width: 60px;
+    height: 60px;
+  }
+
+  /* ------------  FOR NAV BUTTON AND SEARCH CONTAINER  */
+  .navlinksconatiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+    width: 70%;
+    /* background-color: purple; */
+    /* background-color: rgb(138, 75, 138,0.8); */
+    background-color: rgb(168, 205, 76);
+    /* opacity: 0.7;  */
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+
+  /* -------NAVIGATION BAR BUTTONS AND SEARCH */
+
+  /* 1).FOR NAVIGATION BUTTONS */
+  .nav-button {
+    margin-left: 10px;
+  }
+
+  .nav-button li {
+    display: inline;
+
+    margin: 3px;
+  }
+
+  .nav-button li a {
+    list-style: none;
+    text-decoration: none;
+    /* color: rgb(223, 83, 106); */
+    /* color: white; */
+    color: rgb(138, 75, 138);
+    /* border: 2px solid white; */
+    border: 2px solid rgb(138, 75, 138);
+    border-radius: 50px;
+    padding: 10px;
+  }
+
+  .nav-button li a:hover {
+    /* border: 5px solid rgb(207, 80, 148); */
+    /* color:  rgb(207, 80, 148); */
+    /* border: 5px solid purple;
+ color:  purple; */
+    /* border: 4px solid rgb(138, 75, 138); */
+    border-width: 4px;
+    /* color:  rgb(138, 75, 138); */
+    font-weight: bolder;
+  }
+
+  /* 2).FOR NAVIGATION SEARCH BAR */
+  .search-class {
+    margin-right: 10px;
+  }
+
+  .search-class input {
+    height: 25px;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 3px;
+    font-weight: bolder;
+  }
+
+  /* *************NAVIGATION ENDS  */
+
+  /* START FOR IMAGE */
+  .img {
+    background-image: url(/Images/about.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 700px;
+  }
+  /* END FOR IMAGE */
+
+  /* MAIN SECTION */
+
+  /* IMAGE CONTENT FOR FRONT START */
+  .content {
+    margin-top: 170px;
+  }
+
+  .content h1 {
+    font-size: 100px;
+    padding-top: 5px;
+  }
+
+  .content h5 {
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 10px;
+    padding-top: 5px;
+    font-style: italic;
+  }
+
+  .content h1,
+  h5 {
+    color: white;
+    text-align: center;
+  }
+
+  h5:hover {
+    /* color: rgb(207, 80, 148); */
+    /* color: purple; */
+    color: rgb(138, 75, 138);
+  }
+  /* IMAGE CONTENT FOR FRONT ENDS */
+
+  /* FIRST SECTION END */
+
+
+  /* MAIN SECTION STARTS */
+
+
+  /* GRID PART STARTS---------- */
+
+  .container-about-content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* grid-template-rows: auto  auto  auto auto auto auto auto auto auto;  */
+    /* gap: 5px; */
+    /* background-color: black; */
+    /* padding: 10px; */
+  }
+  .container-about-content div{
+    /* background-color: cyan; */
+    background-color: rgb( 168, 205, 76);
+    color:  rgb(138, 75, 138);
+    text-align: center;
+    border: 1px solid black;
+    text-transform: capitalize;
+    /* padding: 20px; */
+  }
+  /* FOR GRID CONTAINERS SETTINGS START---------- */
+  .grid-content1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .grid-content1 span,p{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 5px;
+  }
+  .grid-content1 p{
+    font-size: 20px;
+    text-transform: capitalize; 
+  }
+  .grid-content1 span{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-style: italic;
+  }
+ 
+
+
+
+  .grid-content2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-image: url(/Images/about-section-journey.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 680px;
+  } 
+  
+  
+
+  
+
+  
+  .grid-content3{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .grid-content3 h4{
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-style: italic;
+  }
+  
+  
+  .grid-content4{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-image: url(/Images/about-section-quality.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 303px;
+
+  }
+
+   .grid-content5{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  } 
+
+  .grid-content5 h4{
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-style: italic;
+  }
+
+  .grid-content6{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .grid-content6 h4{
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-style: italic;
+  }
+
+  .grid-content7{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-image: url(/Images/about-us-preference.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 537px;
+
+  }
+
+  .grid-content8{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-image: url(/Images/about-us-redefined.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 303px;
+
+  }
+
+  .grid-content9{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .grid-content9 h4{
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-style: italic;
+  }
+
+  /* .grid-content10{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+  }
+  .grid-content11{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+  } */
+
+  .grid-content10{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background-image: url(/Images/about-us-slogan.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 282px;
+  }
+  .grid-content11{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .grid-content11 h2{
+    font-size: 30px;
+    
+  }
+  .grid-content11 span{
+    font-size: 15px;
+  }
+  .grid-content11 h2,span{
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-style: italic;
+  }
+  #contbtn{
+    border: 2px solid rgb(138, 75, 138);
+    padding:10px;
+    background-color: transparent;
+    color: rgb(138, 75, 138);
+    text-decoration: none;
+    border-radius: 50px;
+  }
+  #contbtn:hover{
+    font-weight: bolder;
+    border: 5px solid purple;
+    color: purple;
+    font-size: 15px;
+  }
+
+  /* FOR GRID CONTAINERS SETTINGS ENDS---------- */
+
+  /* GRID PART ENDS********** */
